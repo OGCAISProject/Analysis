@@ -170,7 +170,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-07-30-at-3-600x503.png",
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-07-30-at-4-600x501.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
