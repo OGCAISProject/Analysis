@@ -22,10 +22,12 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 3,
+    "uniqCompNum": 4,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/dulogo-128x128.png",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -66,11 +68,128 @@
             "contentAlign": "left",
             "showTitle": true,
             "showText": true,
-            "showButtons": false
+            "showButtons": true
           },
           "title": "Analysis",
-          "text": "Further analysis can be performed on the loaded layer/s (classification, density mapping, time-based tracking, and data profiling), though certain kinds of analysis are only applicable to specific web service layer types (e.g., WFS). This includes:<br>1. Classification:  The classify WFS feature, as the name implies, works on Web Feature Services, due to their nature in containing attribute values and independent, clickable vector features (as opposed to rasterized images which are fuzzier in nature)<br>2. Density Mapping:  The density mapping feature provides an option to select a WFS layer on which to calculate kernel density estimation (where a smoothly curved surface is fitted over each point or line feature, and surface values are higher near the clustering of features, and lower as distances increase from those clusters)<br>3. Feature Tracking:  The tracking tool again takes a web service layer as input, and performs time series-based tracking along the route or direction the selected feature travels as time passes (as an animation)<br>4.&nbsp;Vertical Profiling:  This tool involves the combination of two types of web service layers: WCS and WFS. The WCS layer provides height/elevation information, and the WFS provides the features which experience the height/elevation changes",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+          "text": "The overall design of the client GUI is user friendly yet powerful. This interface component enables user manipulation of datasets, classification and analysis functions, and information and visualization outputs. Further analysis can be performed on the loaded layer/s (classification, density mapping, time-based tracking, and data profiling), though certain kinds of analysis are only applicable to specific web service layer types (e.g., WFS).&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"index.html#features3-3\" data-toolbar=\"-mbrBtnMove\">View Demonstration</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-3",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/554295039277390096-600x503.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Classification",
+          "subtitle1": "The classify WFS feature, as the name implies, works on Web Feature Services, due to their nature in containing attribute values and independent, clickable vector features (as opposed to rasterized images which are fuzzier in nature)",
+          "caption1": "",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-07-30-at-3-600x503.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Density Mapping",
+          "subtitle2": "The density mapping feature provides an option to select a WFS layer on which to calculate kernel density estimation (where a smoothly curved surface is fitted over each point or line feature, and surface values are higher near the clustering of features, and lower as distances increase from those clusters)",
+          "caption2": "",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-07-30-at-3-600x503.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Feature Tracking",
+          "subtitle3": "The tracking tool again takes a web service layer as input, and performs time series-based tracking along the route or direction the selected feature travels as time passes (as an animation)",
+          "caption3": "",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/186713881018379129-600x503.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Vertical Profiling",
+          "subtitle4": "This tool involves the combination of two types of web service layers: WCS and WFS. The WCS layer provides height/elevation information, and the WFS provides the features which experience the height/elevation changes",
+          "caption4": "",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_inherit": "msg-box5",
