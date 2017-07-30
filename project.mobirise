@@ -72,7 +72,7 @@
           },
           "title": "Analysis",
           "text": "The overall design of the client GUI is user friendly yet powerful. This interface component enables user manipulation of datasets, classification and analysis functions, and information and visualization outputs. Further analysis can be performed on the loaded layer/s (classification, density mapping, time-based tracking, and data profiling), though certain kinds of analysis are only applicable to specific web service layer types (e.g., WFS).&nbsp;<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"index.html#features3-3\" data-toolbar=\"-mbrBtnMove\">View Demonstration</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"index.html#msg-box8-4\" data-toolbar=\"-mbrBtnMove\">View Demonstration</a> "
         },
         {
           "_styles": {
