@@ -154,7 +154,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-07-30-at-3-600x503.jpg",
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-07-30-at-4-600x502.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
